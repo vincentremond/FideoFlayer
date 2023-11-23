@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FideoFlayer", "FideoFlayer\FideoFlayer.fsproj", "{F6638902-9232-4FB9-8C89-46DFCE82B307}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FideoFlayer.Tests", "FideoFlayer.Tests\FideoFlayer.Tests.fsproj", "{F776D34D-2BE4-4452-9F6E-7E511A9A87AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{4871023E-D7CF-46DD-A1A0-AAF0B1BAE45E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+		README.md = README.md
+		convert-videos.ps1 = convert-videos.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6638902-9232-4FB9-8C89-46DFCE82B307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6638902-9232-4FB9-8C89-46DFCE82B307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6638902-9232-4FB9-8C89-46DFCE82B307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6638902-9232-4FB9-8C89-46DFCE82B307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F776D34D-2BE4-4452-9F6E-7E511A9A87AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F776D34D-2BE4-4452-9F6E-7E511A9A87AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F776D34D-2BE4-4452-9F6E-7E511A9A87AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F776D34D-2BE4-4452-9F6E-7E511A9A87AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
