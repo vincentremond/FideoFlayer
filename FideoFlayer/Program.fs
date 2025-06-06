@@ -22,7 +22,6 @@ let videoDirectory =
 
 let getVideoFiles () = videoDirectory.GetFiles("*.mp4")
 
-
 let template (pageTitle: string) (bodyContent: XmlNode list) =
     html [] [
         head [] [
